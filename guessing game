@@ -1,0 +1,21 @@
+# bug-free-winner
+
+
+#include <iostream>
+
+int main() {
+
+	int guess=0;
+	
+
+	while (guess != 8) {
+		std::cout << "Enter a number: ";
+		std::cin >> guess;
+		
+		if (guess == 8) {
+			break;
+		}
+		else std::cout << "Wrong guess, try again: ";
+
+	}
+}
